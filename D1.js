@@ -14,17 +14,20 @@ REGOLE
 /* SCRIVI QUI LA TUA RISPOSTA */
 /*
 In javascript esistono diversi tipi di Datatype cioè tipi di dati che la nostra variabile accetta. i piu comuni sono =
--Stringhe: vorrà un dato di tipo "testo"; contengno un isnieme infinito di caratteri e vengono indicati all'interno degli apici o doppi apici. 
+-Stringhe: vorrà un dato di tipo "testo"; contiene un isnieme di caratteri e vengono indicati all'interno degli apici o doppi apici. 
 -number: Una variabile number invece vorrà un dato numerico e viene indicato senza distinzione tra intero e decimale.
 -boleano: Questo tipo di variabile accettrà invece solo due tipi di dati, True oppure False. Serve a far prendere delle "decisioni" 
-al nostro codice.
+al nostro codice. 
+-undefined: indica che ad una variabile non è stato assegnato alcun dato e quindi non è stata definita.
+*/
+
 /* ESERCIZIO 2
  Crea una variable chiamata "myName" e assegna ad essa il tuo nome, sotto forma di stringa.
 */
 
 /* SCRIVI QUI LA TUA RISPOSTA */
 let myName = "Tammaro";
-console.log(myName);
+console.log("Il mio nome è  " + myName);
 /* ESERCIZIO 3
  Scrivi il codice necessario ad effettuare un addizione (una somma) dei numeri 12 e 20.
 */
@@ -49,8 +52,9 @@ let x = 12;
 
 /* SCRIVI QUI LA TUA RISPOSTA */
 myName = "Miele";
-console.log(myName);
+console.log("il mio cognome è " + myName);
 //somma = 40;
+
 /* ESERCIZIO 6
  Esegui una sottrazione tra i numeri 4 e la variable "x" appena dichiarata (che contiene il numero 12).
 */
@@ -70,6 +74,6 @@ console.log(sottrazione);
 let name1 = "john";
 let name2 = "John";
 const verifica = "name1" === "name2";
-console.log(verifica);
+console.log("name1 e name2 sono uguali ? " + verifica);
 
-console.log(name1.toLowerCase() === name2.toLowerCase());
+console.log("name1 e name2 sono uguali ? " + (name1.toLowerCase() === name2.toLowerCase()));
